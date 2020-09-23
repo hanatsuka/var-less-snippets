@@ -1,10 +1,3 @@
-/*
- * @Description:
- * @Author: chun_lei
- * @Date: 2020-09-23 10:20:01
- * @LastEditor: chun_lei
- * @LastEditTime: 2020-09-23 11:32:38
- */
 const fs = require("fs");
 console.log("---开始读取var.less---");
 fs.readFile("./var.less", "utf8", (err, data) => {
